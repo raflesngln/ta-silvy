@@ -1,0 +1,283 @@
+*{
+	font-size:14px;
+}
+.bg-warning{
+	padding:10px 10px;
+	background-color:#FC9;
+	color:#FFF;
+}
+.bg-error{
+	padding:10px 10px;
+	background-color:red;
+	color:#FFF;
+	opacity:0.7;
+}
+.red{color:red;}
+.blue{color:blue;}
+.green{color:green;}
+.black{color:black;}
+.warning{color:#FC0;}
+.bg-succes{
+	padding:10px 10px;
+	background-color:#80FF80;
+	color:#FFF;
+}
+.label{
+	padding-left:12px;
+}
+.text-center{
+	text-align:center;
+}
+.text-right{
+	text-align:right;
+}
+.text-left{
+	text-align:left;
+}
+.text-justify{
+	text-align:justify;
+}
+.label-red{
+	background-color:red;
+	color:white;
+	padding:0px 10px 0px 10px;
+	font-size:12px;
+}
+.label-green{
+	background-color:green;
+	color:white;
+	font-size:12px;
+	padding:0px 10px 0px 10px;
+}
+.label-warning{
+	background-color:#F93;
+	color:white;
+	font-size:12px;
+	padding:0px 10px 0px 10px;
+}
+.pull-right{
+	float:right;	
+}
+pull-left{
+	float:left;	
+}
+.batas{
+	clear:both;
+	margin-top:10px;
+}
+ for page width 100% and col are part of 10 grid
+.row{
+	width:90%;
+	padding:20px 20px;
+	color:#333;
+	float:left;
+	border:none;
+}
+.col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10{
+	float:left;
+	position:relative;
+	margin:0px;
+	margin-bottom:8px;
+
+}
+.col1{
+	width:9%;
+	float:left;
+	position:inherit;
+}
+.col2{
+	width:19%;
+	float:left;
+	position:relative;
+}
+.col3{
+	width:29%;
+	float:left;
+	position:inherit;
+}
+.col4{
+	width:39%;
+	float:left;
+}
+.col5{
+	width:49%;
+	float:left;
+}
+.col6{
+	width:59%;
+	float:left;
+}
+.col7{
+	width:70%;
+	float:left;
+}
+.col8{
+	width:79%;
+	float:left;
+}
+.col9{
+	width:89%;
+	float:left;
+}
+.col10{
+	width:99%;
+	float:left;
+}
+
+-------------------
+
+.box-circle{
+	width:99%;
+	padding:8px 8px;
+	margin-top:15px;
+	margin-bottom:15px;
+	border-bottom:1px #CCC solid;
+}
+
+.circle{
+	height:30px;
+	width:30px;
+	color:#FFF;
+	float:left;
+	clear:both;
+	margin-bottom:10px;
+	margin-right:5px;
+	padding:10px 10px;
+	text-align:center;
+	border-radius:100%;
+	font-size:12pt;
+	background:#09F;
+}
+.arrow-bottom{
+	margin-bottom:15px;	
+}
+.panel{
+	width:90%;
+	margin:0px auto;	
+}
+
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*for button  */
+.btn{
+	cursor:pointer;
+	margin-left:0px;
+	margin-top:4px;
+	transition:1s;
+}
+btn-small{
+	padding:2px 3px;	
+}
+.btn-block{
+	padding:10px 10px;
+	width:98%;
+	box-sizing:border-box;
+	background:#09F;
+	border:none;
+	border-radius:2px;
+	color:white;
+	cursor:pointer;
+}
+.btn-blue{
+	padding:10px 13px;
+	background-color:#06C;
+	border:none;
+	color:#FFF;
+}
+.btn-blue:hover{
+	background-color:#00F;
+	color:#FFF;
+}
+.btn-abu{
+	padding:10px 13px;
+	background-color:#34495e;
+	border:none;
+	color:#FFF;
+}
+.btn-abu:hover{
+	background-color:#00006F;
+
+}
+.btn-ungu{
+	padding:10px 13px;
+	background-color:#8e44ad;
+	border:none;
+	color:#FFF;
+}
+.btn-ungu:hover{
+	background-color:#60C;
+
+}
+
+.btn-lime{
+	padding:11px 13px;
+	background-color:#F93;
+	border:none;
+	color:#FFF;
+}
+.btn-lime:hover{
+	background-color:#F60;
+}
+.text{
+	border:none;
+	border:1px #CCC solid;
+	line-height:30px;
+	border-radius:3px;
+	margin-top:4px;
+	width:100%;
+	padding:2px 5px;
+}
+.text:focus{
+	border:1px #0CC solid;
+}
+.judul{
+	font-size:x-large;
+}
+.input-group{
+	width:100%;
+	clear:both;
+}
+.scrumb{
+	padding: 10px 15px;
+    background-color:#f3f3f3;
+    margin-top: 5px;
+	font-size:13px;
+}
+.scrumb a{
+	text-decoration:none;
+}
+/*-----------------------------------------------------------*/
+
+/* FOR REASPONSIVE DESIGN   */
+
+@media only screen and (max-width: 760px) {
+    /* For tablets: */
+    .col1 {width: 100%;}
+    .col2 {width: 100%;}
+    .col3 {width: 100%;}
+    .col4 {width: 100%;}
+    .col5 {width: 100%;}
+    .col6 {width: 100%;}
+    .col7 {width: 100%;}
+    .col8 {width: 100%;}
+    .col9 {width: 100%;}
+    .col10 {width: 100%;}
+	
+	.content{margin-bottom:35%;}
+	.footer{margin-bottom:-20px;}
+}

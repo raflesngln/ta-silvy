@@ -1,0 +1,10 @@
+<div class="panel">
+<h1 class="text-center">Wellcome To Our Site</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus urna eget ultricies malesuada. Aliquam varius eleifend laoreet. Cras sed luctus tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sagittis risus eget urna vulputate, a mattis nibh laoreet. Cras vel orci nisi. Aliquam ac nisl libero.
+
+Nunc id velit libero. Suspendisse ipsum felis, semper eget justo non, euismod mattis turpis. Nullam ut purus ac tellus finibus consectetur at sit amet tortor. Pellentesque non lorem ac ante consectetur consequat eget id purus. Pellentesque quis est neque. Pellentesque ultricies elit et fermentum volutpat. Nam in est quis lectus egestas condimentum. Sed tincidunt blandit orci, id commodo turpis lobortis a. Ut tincidunt tortor sit amet dolor lacinia fermentum. Nam nec dui sed turpis lobortis varius. Vivamus pulvinar consequat convallis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus urna eget ultricies malesuada. Aliquam varius eleifend laoreet. Cras sed luctus tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sagittis risus eget urna vulputate, a mattis nibh laoreet. Cras vel orci nisi. Aliquam ac nisl libero.
+
+Nunc id velit libero. Suspendisse ipsum felis, semper eget justo non, euismod mattis turpis. Nullam ut purus ac tellus finibus consectetur at sit amet tortor. Pellentesque non lorem ac ante consectetur consequat eget id purus. Pellentesque quis est neque. Pellentesque ultricies elit et fermentum volutpat. Nam in est quis lectus egestas condimentum. Sed tincidunt blandit orci, id commodo turpis lobortis a. Ut tincidunt tortor sit amet dolor lacinia fermentum. Nam nec dui sed turpis lobortis varius. Vivamus pulvinar consequat convallis.</p>
+
+</div>

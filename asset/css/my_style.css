@@ -1,0 +1,178 @@
+*{
+	padding:0;
+	margin:0;
+	
+	top:0;
+}
+h1{font-size:x-large; margin-bottom:5px; margin-top:5px}
+#home{
+	width:100%;
+	padding-bottom:20px;
+	
+}
+.header{
+	background-color:#ffa54b;
+	height:70px;
+	width:100%;
+	color:white;
+	text-align:center;
+	clear:both;
+}
+.header h1,.header p,.header a,.header li,.header h3{    
+     color: #F7F7F7;
+    font-family: cursive;
+	}
+#company{
+	width:30%;
+}
+.content{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:10px;
+	color:#000;
+	clear:both;
+	width:90%;
+	margin:0px auto;
+	margin-left:5%;
+	margin-bottom:35%;
+	padding:2px 3px;
+}
+.content .box-circle{
+	margin-bottom:20px;
+}
+.footer{
+	height:90px;
+	background-color:rgba(0,0,0,0.8);
+	color:#FFF;
+	text-align:center;
+	margin-bottom:-20px;
+	padding:10px 10px;
+}
+.footer copy{	
+}
+
+/* navigasi */
+#menu{
+	background-color:#34495e;
+	position:relative;
+	margin-bottom:-1px;
+	z-index:100;
+	
+}
+nav ul {
+	padding: 4px 4px;
+	list-style: none;
+	position: relative;
+	z-index:100;
+	top:-5px;
+}
+nav ul ul {
+	display: none;
+	margin-top:55px;
+	width:200px;
+}
+nav ul li a {
+	display: block; 
+	padding: 16px 20px;
+	color: #fff; 
+	text-decoration: none;
+	font-family:"Comic Sans MS", cursive;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul li {
+		float: left;
+}
+ul li a:hover {
+	color:#0cc;
+}
+nav ul ul {
+		border-radius: 0px; 
+		padding: 0;
+		position: absolute; 
+}
+nav ul ul li {
+			float: none;
+			list-style:inside;
+			position: relative;
+			background-color:#F3F3F3;
+}
+nav ul ul li a {
+				padding: 10px 20px;
+				color:#333;
+}	
+
+<!-- this for modal --->
+body{
+	background: #ecf0f1;
+	font-family: sans-serif;
+	font-size: 11pt;
+}
+.modal-kotak{
+	margin:3% 30% 30% 30%;
+	width: 50%;	
+	position:fixed;
+	z-index:1002;
+	display: none;
+	background: white;	
+}
+.modal-header{
+	margin-bottom:20px;
+	text-align:center;
+}
+.modal-content{
+	width:96%;
+	box-sizing:content-box;
+	margin-top:10px;
+}
+.modal-content input[type=text]{
+	border:1px #CCC solid;
+	position:inherit;
+	width:95%;
+	margin-left:10px;
+}
+.modal-footer{
+	text-align:center;
+	padding:15px 2px;
+}
+.btn-submit{
+    background-color: #06C;
+    padding: 8px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-close{	
+	background: #e74c3c;
+	cursor:pointer;
+}
+.btn-close,#tombol{
+	height: 30px;
+	width: 100px;
+	color: #fff;
+	border: 0px;
+}
+.xclose{
+	color:red;
+	font-family:"Comic Sans MS", cursive;
+	cursor:pointer;
+}
+
+.bg{
+	opacity:.80;
+	position: absolute;
+	display: none;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index:1001;
+	opacity: 0.8;
+}
+
+
+
+
