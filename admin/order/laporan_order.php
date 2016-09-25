@@ -19,10 +19,20 @@ error_reporting(0);
 			$status_order="AND a.status_order='$status'";	
 		}
 	
+if($status=='0'){
+	$kategori='Pending';
+} else if($status=='1'){
+	$kategori='Process';
+} else if($status=='2'){
+	$kategori='Selesai';
+} else{
+	$kategori='Semua Pesanan';
+}
     //include(dirname(__FILE__).'/lap.php');
 	?>
    <h3 align=center>Laporan Order</h3>
-   <p style="color:#00F; font-size:large">Perode <?php echo ' : '.date('d M Y',strtotime($tgl1)).' s/d '. date('d M Y',strtotime($tgl2));?></p>
+    <p >Status Pesanan : <?php echo $kategori;?></p>
+   <p style="margin-top:-8px">Perode <?php echo ' : '.date('d M Y',strtotime($tgl1)).' s/d '. date('d M Y',strtotime($tgl2));?></p>
 <table width="103%" border="" id="tabel">
   <tr style="background-color:#EFEFEF">
     <td width="104" height="39" F">Invoice</td>
